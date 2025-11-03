@@ -1,0 +1,74 @@
+import React, { type ReactElement } from "react";
+import { Tooltip } from "@mui/material";
+import {
+  Facebook,
+  Instagram,
+  Language,
+  LinkedIn,
+  LinkOutlined,
+  Pinterest,
+  Reddit,
+  Telegram,
+  Twitter,
+  WhatsApp,
+  YouTube,
+} from "@mui/icons-material";
+import Link from "next/link";
+import { Academy } from "@/types/academy";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/UI/card";
+
+type SocialMediaCardProps = {
+  academy: Academy;
+};
+
+export const socialMediaIcons: {
+  [K in keyof Academy["socialLinks"]]: ReactElement;
+} = {
+  instagram: <Instagram sx={{ color: "rgba(241, 9, 234, 1)" }} />,
+  twitter: <Twitter sx={{ color: "rgba(91, 146, 250, 1)" }} />,
+  linkedin: <LinkedIn sx={{ color: "rgba(0, 119, 181, 1)" }} />,
+  website: <Language sx={{ color: "rgba(46, 174, 125, 1)" }} />,
+  facebook: <Facebook sx={{ color: "rgba(59, 89, 152, 1)" }} />,
+  youtube: <YouTube sx={{ color: "rgba(255, 0, 0, 1)" }} />,
+  // tiktok: <TikTok sx={{ color: "rgba(0, 0, 0, 1)" }} />,
+  // snapchat: <Snapchat sx={{ color: "rgba(255, 252, 0, 1)" }} />,
+  pinterest: <Pinterest sx={{ color: "rgba(189, 8, 28, 1)" }} />,
+  reddit: <Reddit sx={{ color: "rgba(255, 69, 0, 1)" }} />,
+  // discord: <Discord sx={{ color: "rgba(114, 137, 218, 1)" }} />,
+  telegram: <Telegram sx={{ color: "rgba(0, 136, 204, 1)" }} />,
+  whatsapp: <WhatsApp sx={{ color: "rgba(37, 211, 102, 1)" }} />,
+};
+
+const SocialMediaCard: React.FC<SocialMediaCardProps> = ({ academy }) => {
+  const socialLinks = academy?.socialLinks;
+
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle>Social Links</CardTitle>
+      </CardHeader>
+      <CardContent className="flex gap-2">
+        {!socialLinks || Object.keys(socialLinks).length === 0 ? (
+          <p className="text-muted-foreground text-sm">No social media links found.</p>
+        ) : (
+          <div className="flex flex-wrap gap-4">
+            {Object.entries(socialLinks).map(
+              ([key, link]) =>
+                link && (
+                  <Tooltip key={key} title={key} placement="bottom">
+                    <Link href={link} target="_blank" rel="noopener noreferrer">
+                      {socialMediaIcons[
+                        key as keyof Academy["socialLinks"]
+                      ] || <LinkOutlined />}
+                    </Link>
+                  </Tooltip>
+                ),
+            )}
+          </div>
+        )}
+      </CardContent>
+    </Card>
+  );
+};
+
+export default SocialMediaCard;

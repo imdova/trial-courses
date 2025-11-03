@@ -1,0 +1,87 @@
+import { CourseVideo } from "@/types/courses";
+
+// Course Video List
+export const courseVideos: CourseVideo[] = [
+  {
+    title: "Introduction",
+    progress: 10,
+    url: "https://www.youtube.com/watch?v=XDuWyYxksXU&list=PLDoPjvoNmBAwy-rS6WKudwVeb_x63EzgS",
+    locked: false,
+    duration: "1:00",
+  },
+  {
+    title: "Medical Terminology",
+    progress: 30,
+    url: "https://www.youtube.com/watch?v=jOUb09iiO20&list=PLDoPjvoNmBAwy-rS6WKudwVeb_x63EzgS&index=2",
+    locked: false,
+    duration: "4:00",
+  },
+  {
+    title: "Medical Neuroscience",
+    progress: 50,
+    url: "https://www.youtube.com/watch?v=R-Hu5rdn-vc&list=PLDoPjvoNmBAwy-rS6WKudwVeb_x63EzgS&index=3",
+    locked: true,
+    duration: "2:35",
+  },
+  {
+    title: "Trauma on EMT",
+    progress: 75,
+    url: "https://www.youtube.com/watch?v=R-Hu5rdn-vc&list=PLDoPjvoNmBAwy-rS6WKudwVeb_x63EzgS&index=4",
+    locked: true,
+    duration: "7:00",
+  },
+  {
+    title: "Biomedical Visualization",
+    progress: 100,
+    url: "https://www.youtube.com/watch?v=R-Hu5rdn-vc&list=PLDoPjvoNmBAwy-rS6WKudwVeb_x63EzgS&index=5",
+    locked: true,
+    duration: "11:00",
+  },
+];
+
+// export const assignmentData: Assignment[] = [
+//   {
+//     id: "1",
+//     title: "Introduction to React Hooks",
+//     image: "/images/react-hooks.jpg",
+//     status: "published",
+//     course: "Advanced React",
+//     dueDate: "2023-06-15",
+//     points: 100,
+//     submissions: 1245,
+//     questions: 15,
+//     createdAt: "2023-05-01",
+//     pdfInstructions: "network_security.pdf",
+//     grading: "A",
+//   },
+//   {
+//     id: "2",
+//     title: "TypeScript Fundamentals",
+//     image: "/images/typescript.jpg",
+//     status: "published",
+//     course: "TypeScript Mastery",
+//     dueDate: "2023-06-20",
+//     points: 85,
+//     submissions: 987,
+//     questions: 12,
+//     createdAt: "2023-05-10",
+//     grading: "A",
+//     pdfInstructions: "network_security.pdf",
+//   },
+//   {
+//     id: "5",
+//     title: "Network Security",
+//     image: "/images/network-security.jpg",
+//     status: "published",
+//     course: "Cyber Security",
+//     dueDate: "2023-10-15",
+//     points: 100,
+//     submissions: 456,
+//     questions: 10,
+//     createdAt: "2023-09-25",
+//     submissionDate: "2023-10-10",
+//     pdfInstructions: "network_security.pdf",
+//     grading: "A-",
+//     subject: "Cyber Security",
+//   },
+// ];

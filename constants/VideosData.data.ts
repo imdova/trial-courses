@@ -1,0 +1,1005 @@
+import { CourseType } from "@/types/courses";
+
+// Single page Video Data
+export const courseData: CourseType[] = [
+  {
+    id: "1",
+    title: "Introduction to Programming",
+    type: "offline",
+    image:
+      "https://img.freepik.com/free-photo/young-beautiful-woman-works-office-speak-video-call-laptop_496169-2819.jpg?t=st=1740658883~exp=1740662483~hmac=e6baa216942883145d488ea23fe7d2638fc2fec6af4f284035a52b6251503fa9&w=1380",
+    rating: 5,
+    lessons: 6,
+    duration: "11h 20m",
+    description:
+      "Learn Python from scratch, including data structures and automation.",
+    students: 850,
+    price: 20,
+    date: "April 5,2025",
+    level: "Intermediate",
+    category: "Cognitive Fitness",
+    supCategory: "sup Cognitive",
+    revenue: "$1,200.00",
+    status: "Published",
+    skills: [
+      "Mental Health",
+      "Healthcare",
+      "Social Care",
+      "Disability",
+      "Transition Year Moral Social and Personal Development",
+      "SDG 3 Good Health And Wellbeing",
+      "SDG 10 Reduced Inequality",
+    ],
+    faqs: [
+      {
+        question: "What are the best free online healthcare courses?",
+        answer:
+          "Learn Python from scratch, including data structures and automation.",
+      },
+      {
+        question:
+          "What are the best free online certificate courses in healthcare?",
+        answer: "Transition Year Moral Social and Personal Development",
+      },
+    ],
+    related_search: [
+      "Healthcare Quality",
+      "Infection Control",
+      "Dentists",
+      "Doctors",
+      "Accounting",
+      "Healthcare",
+      "Management",
+      "Accounting",
+      "Health Care",
+    ],
+    learnOutcome: [
+      "Explain why quality care services d...",
+      "Describe how support workers use th...",
+      "List the four guiding principles of...",
+      "Describe the negative use of names ...",
+    ],
+    attends: [
+      "Healthcare Providers",
+      "Doctors",
+      "Dentists",
+      "Pharmacists",
+      "Medical Directors",
+      "Healthcare Providers",
+      "Nurses",
+      "Technicians",
+      "Healthcare Providers",
+      "Healthcare Providers",
+    ],
+    quizzes: 145,
+    certifications: "Yes",
+    language: ["AR", "ENG"],
+    isActive: true,
+    videoPreveiw: "https://www.youtube.com/watch?v=7mz06SXDoqA",
+    reviews: [
+      {
+        date: "Feb 10, 2024",
+        rating: 4.8,
+        user: {
+          name: "Daniel M.",
+          photo:
+            "https://img.freepik.com/free-photo/smiling-young-man_23-2148324321.jpg?w=740",
+          job: "Data Analyst",
+        },
+        content: "A great introduction to Python!",
+      },
+    ],
+    tabs: [
+      {
+        title: "Chapter 1: Basics of Programming",
+        total: 5,
+        completed: 2,
+        items: [
+          {
+            title: "What is Programming?",
+            progress: 100,
+            url: "https://www.youtube.com/watch?v=7mz06SXDoqA",
+            locked: false,
+            duration: "5:00",
+            isPreview: true,
+            type: "lesson",
+          },
+          {
+            title: "Variables and Data Types",
+            progress: 50,
+            url: "https://www.youtube.com/watch?v=7mz06SXDoqA",
+            locked: false,
+            duration: "7:30",
+            type: "lesson",
+          },
+          {
+            title: "Control Structures",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=7mz06SXDoqA",
+            locked: true,
+            duration: "6:15",
+            type: "lesson",
+          },
+          {
+            title: "Study Matrial 1",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=7mz06SXDoqA",
+            locked: false,
+            duration: "6:15",
+            type: "material",
+          },
+          {
+            title: "Quiz 1",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=7mz06SXDoqA",
+            locked: false,
+            duration: "6:15",
+            type: "quiz",
+          },
+        ],
+      },
+      {
+        title: "Chapter 2: Functions and Modules",
+        total: 2,
+        completed: 0,
+        items: [
+          {
+            title: "Writing Functions",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=7mz06SXDoqA",
+            locked: false,
+            duration: "8:00",
+            isPreview: true,
+            type: "lesson",
+          },
+          {
+            title: "Modules and Libraries",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=7mz06SXDoqA",
+            locked: true,
+            duration: "9:20",
+            type: "lesson",
+          },
+        ],
+      },
+    ],
+    instructor: {
+      name: "Dr. John Smith",
+      image:
+        "https://img.freepik.com/free-photo/smiling-woman-posing-outdoors_23-2148211695.jpg?w=740",
+      rating: 4.8,
+      reviews: 1500,
+      courses: 10,
+      description:
+        "Dr. John Smith is a seasoned software engineer with over 15 years of experience in teaching programming and software development.",
+      job: "Software Engineer",
+      students: 5000,
+      info: "Business Owner @ Pallet Company | Creative Entrepreneurship, Account Management, Founder of a Non-Profit",
+    },
+    questions: [
+      {
+        id: "1",
+        user: {
+          name: "Alice Johnson",
+          image:
+            "https://img.freepik.com/free-photo/smiling-woman-posing-outdoors_23-2148211695.jpg?w=740",
+          info: "Business Owner @ Pallet Company | Creative Entrepreneurship, Account Management, Founder of a Non-Profit",
+        },
+        content: "What is the best programming language for beginners?",
+        replies: [
+          {
+            id: "1-1",
+            user: {
+              name: "Dr. John Smith",
+              image:
+                "https://img.freepik.com/free-photo/smiling-woman-posing-outdoors_23-2148211695.jpg?w=740",
+              info: "LinkedIn Author, Speaker, Trainer | BA Foundations and BA for PMs, PMI-PMOCP, PgMP, CBAP, ACP",
+            },
+            content:
+              "Python is highly recommended for beginners due to its simplicity.",
+            timestamp: 10,
+            likes: 0,
+            liked: false,
+          },
+        ],
+        timestamp: 5,
+        likes: 0,
+        liked: false,
+        edited: true,
+      },
+    ],
+    materials: [
+      {
+        id: "1",
+        name: "Introduction to React",
+        date: "April 5, 2025",
+        fileType: "pdf",
+        downloadUrl: "#",
+      },
+      {
+        id: "2",
+        name: "Component Lifecycle",
+        date: "April 6, 2025",
+        fileType: "docx",
+        downloadUrl: "#",
+      },
+      {
+        id: "3",
+        name: "State Management",
+        date: "April 7, 2025",
+        fileType: "xlsx",
+        downloadUrl: "#",
+      },
+      {
+        id: "4",
+        name: "Advanced Hooks",
+        date: "April 8, 2025",
+        fileType: "pptx",
+        downloadUrl: "#",
+      },
+      {
+        id: "5",
+        name: "Project Guidelines",
+        date: "April 9, 2025",
+        fileType: "zip",
+        downloadUrl: "#",
+      },
+    ],
+    certificates_list: [
+      {
+        id: "1",
+        name: "Introduction 1",
+        program: "Hospital Management",
+        grade: "Exellent",
+        issue_date: "April 5, 2025",
+        serial: "IMS5421562",
+        fileType: "pdf",
+        downloadUrl: "#",
+      },
+      {
+        id: "2",
+        name: "Introduction 2",
+        program: "Hospital Management",
+        grade: "Exellent",
+        issue_date: "April 5, 2025",
+        serial: "IMS5421562",
+        fileType: "pdf",
+        downloadUrl: "#",
+      },
+      {
+        id: "3",
+        name: "Introduction 3",
+        program: "Hospital Management",
+        grade: "Exellent",
+        issue_date: "April 5, 2025",
+        serial: "IMS5421562",
+        fileType: "pdf",
+        downloadUrl: "#",
+      },
+    ],
+    sales: 300,
+  },
+  {
+    id: "2",
+    title: "Data Science Essentials",
+    type: "live",
+    image:
+      "https://img.freepik.com/free-photo/data-scientists-looking-big-screen-with-analytics-graphs-charts_107791-17038.jpg?w=1380",
+    rating: 4.8,
+    lessons: 10,
+    duration: "20h 30m",
+    description:
+      "Learn Python for data analysis, visualization, and machine learning fundamentals.",
+    students: 950,
+    price: 35,
+    date: "February 10, 2025",
+    level: "Intermediate",
+    category: "Data Science",
+    supCategory: "Analytics",
+    revenue: "$3,200.00",
+    status: "Published",
+    skills: [
+      "Python Programming",
+      "Pandas",
+      "NumPy",
+      "Data Visualization",
+      "Statistical Analysis",
+      "Machine Learning Basics",
+      "Jupyter Notebooks",
+    ],
+    faqs: [
+      {
+        question: "What Python knowledge do I need before starting?",
+        answer:
+          "Basic Python syntax understanding is recommended but we cover all necessary fundamentals.",
+      },
+      {
+        question: "Will this course teach me machine learning?",
+        answer:
+          "Yes, we cover foundational machine learning concepts and implementations.",
+      },
+    ],
+    related_search: [
+      "Python Data Analysis",
+      "Pandas Tutorial",
+      "Data Visualization",
+      "Machine Learning Basics",
+      "Data Science for Beginners",
+      "Jupyter Notebooks",
+      "Statistical Analysis",
+    ],
+    learnOutcome: [
+      "Clean and transform data using Pandas",
+      "Create insightful visualizations with Matplotlib and Seaborn",
+      "Perform statistical analysis on datasets",
+      "Build basic machine learning models",
+      "Work with Jupyter Notebooks effectively",
+    ],
+    attends: [
+      "Aspiring Data Scientists",
+      "Analysts",
+      "Researchers",
+      "Business Professionals",
+      "Students",
+      "Developers",
+    ],
+    quizzes: 15,
+    certifications: "Yes",
+    language: ["ENG", "FR"],
+    isActive: true,
+    videoPreveiw: "https://www.youtube.com/watch?v=ua-CiDNNj30",
+    reviews: [
+      {
+        date: "Jan 20, 2025",
+        rating: 5,
+        user: {
+          name: "Robert Chen",
+          photo:
+            "https://img.freepik.com/free-photo/young-man-with-dark-curly-hair_273609-39636.jpg?w=740",
+          job: "Financial Analyst",
+        },
+        content:
+          "The best introduction to data science I've found. The projects are practical and well-explained.",
+      },
+    ],
+    tabs: [
+      {
+        title: "Chapter 1: Python for Data Science",
+        total: 3,
+        completed: 0,
+        items: [
+          {
+            title: "Python Refresher",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            locked: false,
+            duration: "12:15",
+            isPreview: true,
+            type: "lesson",
+          },
+          {
+            title: "NumPy Arrays",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            locked: false,
+            duration: "14:30",
+            type: "lesson",
+          },
+          {
+            title: "Pandas DataFrames",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            locked: true,
+            duration: "18:20",
+            type: "lesson",
+          },
+        ],
+      },
+      {
+        title: "Chapter 2: Data Visualization",
+        total: 4,
+        completed: 0,
+        items: [
+          {
+            title: "Matplotlib Basics",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            locked: true,
+            duration: "15:45",
+            type: "lesson",
+          },
+          {
+            title: "Seaborn for Statistical Viz",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            locked: true,
+            duration: "17:10",
+            type: "lesson",
+          },
+          {
+            title: "Customizing Visualizations",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            locked: true,
+            duration: "13:25",
+            type: "lesson",
+          },
+          {
+            title: "Dashboard Creation",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=ua-CiDNNj30",
+            locked: true,
+            duration: "20:00",
+            type: "lesson",
+          },
+        ],
+      },
+    ],
+    instructor: {
+      name: "Dr. Priya Patel",
+      image:
+        "https://img.freepik.com/free-photo/indian-woman-scientist-lab-coat-glasses-holding-digital-tablet_53876-104514.jpg?w=740",
+      rating: 4.9,
+      reviews: 1800,
+      courses: 12,
+      description:
+        "Dr. Patel holds a PhD in Computational Statistics and has worked as a lead data scientist at multiple tech unicorns.",
+      job: "Lead Data Scientist",
+      students: 7000,
+      info: "PhD in Computational Statistics | Former Lead Data Scientist @TechUnicorn | Kaggle Grandmaster",
+    },
+    questions: [
+      {
+        id: "1",
+        user: {
+          name: "Lisa Wong",
+          image:
+            "https://img.freepik.com/free-photo/young-woman-with-round-glasses-yellow-sweater_273609-7091.jpg?w=740",
+          info: "Marketing Analyst looking to upskill",
+        },
+        content: "Is this course math-heavy? What level of math is required?",
+        replies: [
+          {
+            id: "1-1",
+            user: {
+              name: "Dr. Priya Patel",
+              image:
+                "https://img.freepik.com/free-photo/indian-woman-scientist-lab-coat-glasses-holding-digital-tablet_53876-104514.jpg?w=740",
+              info: "PhD in Computational Statistics | Kaggle Grandmaster",
+            },
+            content:
+              "We cover statistical concepts but explain them intuitively. High school math is sufficient.",
+            timestamp: 15,
+            likes: 8,
+            liked: false,
+          },
+        ],
+        timestamp: 7,
+        likes: 2,
+        liked: false,
+        edited: false,
+      },
+    ],
+    materials: [
+      {
+        id: "1",
+        name: "Python Data Science Cheat Sheet",
+        date: "February 10, 2025",
+        fileType: "pdf",
+        downloadUrl: "#",
+      },
+      {
+        id: "2",
+        name: "Sample Datasets",
+        date: "February 11, 2025",
+        fileType: "zip",
+        downloadUrl: "#",
+      },
+      {
+        id: "3",
+        name: "Jupyter Notebook Tutorial",
+        date: "February 12, 2025",
+        fileType: "pdf",
+        downloadUrl: "#",
+      },
+    ],
+    certificates_list: [
+      {
+        id: "1",
+        name: "Data Science Essentials",
+        program: "Data Analytics",
+        grade: "Excellent",
+        issue_date: "February 10, 2025",
+        serial: "DSE5421562",
+        fileType: "pdf",
+        downloadUrl: "#",
+      },
+    ],
+    sales: 120,
+  },
+  {
+    id: "3",
+    title: "Digital Marketing Masterclass",
+    type: "live",
+    image:
+      "https://img.freepik.com/free-photo/digital-marketing-with-icons-business-people_53876-94833.jpg?w=1380",
+    rating: 4.6,
+    lessons: 12,
+    duration: "18h 15m",
+    description:
+      "Comprehensive training on SEO, social media, email marketing, and Google Analytics.",
+    students: 1500,
+    price: 30,
+    date: "January 5, 2025",
+    level: "Beginner",
+    category: "Marketing",
+    supCategory: "Digital Marketing",
+    revenue: "$4,500.00",
+    status: "Published",
+    skills: [
+      "SEO Optimization",
+      "Social Media Marketing",
+      "Email Campaigns",
+      "Google Analytics",
+      "Content Marketing",
+      "PPC Advertising",
+      "Conversion Optimization",
+    ],
+    faqs: [
+      {
+        question: "Is this course suitable for complete beginners?",
+        answer:
+          "Absolutely! We start from the fundamentals and build up to advanced strategies.",
+      },
+      {
+        question: "Will I learn how to run Facebook ads?",
+        answer:
+          "Yes, we cover Facebook/Instagram ads along with other paid advertising platforms.",
+      },
+    ],
+    related_search: [
+      "SEO Course",
+      "Social Media Marketing",
+      "Google Analytics",
+      "Email Marketing",
+      "Content Strategy",
+      "PPC Advertising",
+      "Digital Marketing Certification",
+    ],
+    learnOutcome: [
+      "Develop effective SEO strategies",
+      "Create and manage social media campaigns",
+      "Build email marketing sequences",
+      "Analyze website traffic with Google Analytics",
+      "Run successful PPC campaigns",
+      "Develop content marketing strategies",
+    ],
+    attends: [
+      "Marketing Professionals",
+      "Small Business Owners",
+      "Entrepreneurs",
+      "Bloggers",
+      "Content Creators",
+      "Career Changers",
+      "Students",
+    ],
+    quizzes: 10,
+    certifications: "Yes",
+    language: ["ENG", "DE"],
+    isActive: true,
+    videoPreveiw: "https://www.youtube.com/watch?v=bixR-KIJKYM",
+    reviews: [
+      {
+        date: "Dec 15, 2024",
+        rating: 4.5,
+        user: {
+          name: "David Wilson",
+          photo:
+            "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?w=740",
+          job: "Small Business Owner",
+        },
+        content:
+          "Doubled my website traffic in 2 months after implementing the SEO strategies from this course.",
+      },
+    ],
+    tabs: [
+      {
+        title: "Chapter 1: Digital Marketing Fundamentals",
+        total: 4,
+        completed: 0,
+        items: [
+          {
+            title: "Digital Marketing Landscape",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=jVgYgN0zcWs",
+            locked: false,
+            duration: "10:30",
+            isPreview: true,
+            type: "lesson",
+          },
+          {
+            title: "Customer Journey Mapping",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=U9t-slhCQj0",
+            locked: false,
+            duration: "12:45",
+            type: "lesson",
+          },
+          {
+            title: "Marketing Funnels",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=U9t-slhCQj0",
+            locked: true,
+            duration: "14:20",
+            type: "lesson",
+          },
+          {
+            title: "Digital Marketing Strategy",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=U9t-slhCQj0",
+            locked: true,
+            duration: "16:10",
+            type: "lesson",
+          },
+        ],
+      },
+      {
+        title: "Chapter 2: SEO & Content Marketing",
+        total: 5,
+        completed: 0,
+        items: [
+          {
+            title: "SEO Fundamentals",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=U9t-slhCQj0",
+            locked: true,
+            duration: "18:30",
+            type: "lesson",
+          },
+          {
+            title: "Keyword Research",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=U9t-slhCQj0",
+            locked: true,
+            duration: "15:45",
+            type: "lesson",
+          },
+          {
+            title: "On-Page SEO",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=U9t-slhCQj0",
+            locked: true,
+            duration: "14:20",
+            type: "lesson",
+          },
+          {
+            title: "Content Strategy",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=U9t-slhCQj0",
+            locked: true,
+            duration: "16:50",
+            type: "lesson",
+          },
+          {
+            title: "Link Building",
+            progress: 0,
+            url: "https://www.youtube.com/watch?v=U9t-slhCQj0",
+            locked: true,
+            duration: "13:25",
+            type: "lesson",
+          },
+        ],
+      },
+    ],
+    instructor: {
+      name: "Marcus Johnson",
+      image:
+        "https://img.freepik.com/free-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg?w=740",
+      rating: 4.7,
+      reviews: 3200,
+      courses: 20,
+      description:
+        "Marcus has helped over 500 businesses grow their online presence and has been featured in Forbes, Entrepreneur, and Marketing Week.",
+      job: "Digital Marketing Strategist",
+      students: 12000,
+      info: "Founder @ DigitalGrowth | Forbes 30 Under 30 | Speaker at Digital Summit, SMW",
+    },
+    questions: [
+      {
+        id: "1",
+        user: {
+          name: "Sophia Martinez",
+          image:
+            "https://img.freepik.com/free-photo/young-woman-with-round-glasses-yellow-sweater_273609-7091.jpg?w=740",
+          info: "Blogger looking to monetize my website",
+        },
+        content: "How quickly can I expect to see results from SEO?",
+        replies: [
+          {
+            id: "1-1",
+            user: {
+              name: "Marcus Johnson",
+              image:
+                "https://img.freepik.com/free-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg?w=740",
+              info: "Founder @ DigitalGrowth | Forbes 30 Under 30",
+            },
+            content:
+              "Typically 3-6 months for significant SEO results, but some tactics can show improvements in weeks.",
+            timestamp: 20,
+            likes: 15,
+            liked: false,
+          },
+        ],
+        timestamp: 10,
+        likes: 5,
+        liked: false,
+        edited: false,
+      },
+    ],
+    materials: [
+      {
+        id: "1",
+        name: "SEO Checklist",
+        date: "January 5, 2025",
+        fileType: "pdf",
+        downloadUrl: "#",
+      },
+      {
+        id: "2",
+        name: "Social Media Content Calendar",
+        date: "January 6, 2025",
+        fileType: "xlsx",
+        downloadUrl: "#",
+      },
+      {
+        id: "3",
+        name: "Google Analytics Guide",
+        date: "January 7, 2025",
+        fileType: "pdf",
+        downloadUrl: "#",
+      },
+    ],
+    certificates_list: [
+      {
+        id: "1",
+        name: "Digital Marketing Masterclass",
+        program: "Digital Marketing",
+        grade: "Excellent",
+        issue_date: "January 5, 2025",
+        serial: "DMM5421562",
+        fileType: "pdf",
+        downloadUrl: "#",
+      },
+    ],
+    sales: 500,
+  },
+  {
+    id: "4",
+    title: "Business Analysis Fundamentals",
+    type: "offline",
+    image:
+      "https://img.freepik.com/free-photo/business-people-analyzing-data-working-office_53876-94834.jpg?w=1380",
+    rating: 4.7,
+    lessons: 8,
+    duration: "15h 10m",
+    description:
+      "Understand business analysis principles, tools, and techniques to drive successful projects.",
+    students: 700,
+    price: 25,
+    date: "March 15, 2025",
+    level: "Beginner",
+    category: "Business",
+    supCategory: "Business Analysis",
+    revenue: "$1,750.00",
+    status: "Published",
+    skills: [
+      "Business Analysis",
+      "Stakeholder Engagement",
+      "Requirements Gathering",
+      "Process Mapping",
+      "Data Analysis",
+      "Project Management",
+      "Agile Methodologies",
+    ],
+    faqs: [
+      {
+        question: "Is prior business knowledge required?",
+        answer:
+          "No prior business knowledge is required. We start with the basics.",
+      },
+      {
+        question: "What tools will I learn in this course?",
+        answer:
+          "You'll learn to use tools like Excel, Visio, and various project management software.",
+      },
+    ],
+    related_search: [
+      "Business Analyst Course",
+      "Requirements Engineering",
+      "Agile Business Analysis",
+      "Business Process Modeling",
+      "Data Analysis for Business",
+      "Project Management Basics",
+    ],
+    learnOutcome: [
+      "Understand business analysis frameworks and methodologies",
+      "Effectively gather and document requirements",
+      "Analyze and model business processes",
+      "Utilize data analysis techniques for informed decision-making",
+      "Engage stakeholders and manage expectations",
+    ],
+    attends: [
+      "Aspiring Business Analysts",
+      "Project Managers",
+      "Product Owners",
+      "Consultants",
+      "Entrepreneurs",
+      "Students",
+    ],
+    quizzes: 12,
+    certifications: "Yes",
+    language: ["ENG", "ES"],
+    isActive: true,
+    videoPreveiw: "https://www.youtube.com/watch?v=example",
+    reviews: [
+      {
+        date: "Mar 20, 2025",
+        rating: 4.7,
+        user: {
+          name: "Emily Davis",
+          photo:
+            "https://img.freepik.com/free-photo/portrait-smiling-young-woman_23-2148324321.jpg?w=740",
+          job: "Business Consultant",
+        },
+        content:
+          "This course provided me with the essential skills and knowledge to kickstart my career in business analysis.",
+      },
+    ],
+    tabs: [
+      {
+        title: "Introduction",
+        total: 5,
+        completed: 2,
+        items: [
+          {
+            title: "What is business analysis (BA)?",
+            duration: "2m 17s",
+            type: "lesson",
+            completed: true,
+          },
+          {
+            title: "Business analysis industry definitions",
+            duration: "3m 24s",
+            type: "lesson",
+            completed: true,
+          },
+          {
+            title: "What is the role of a business analyst?",
+            duration: "4m 11s",
+            type: "lesson",
+            completed: false,
+          },
+          {
+            title: "Business analyst skill set",
+            duration: "3m 40s",
+            type: "lesson",
+            completed: false,
+          },
+          {
+            title: "Chapter Quiz",
+            duration: "3m 40s",
+            type: "quiz",
+            questions: 5,
+            completed: false,
+          },
+        ],
+      },
+      {
+        title: "Doing a Needs Assessment",
+        total: 2,
+        completed: 0,
+        items: [
+          {
+            title: "What is business analysis (BA)?",
+            duration: "2m 17s",
+            type: "lesson",
+            completed: true,
+          },
+          {
+            title: "Business analysis industry definitions",
+            duration: "3m 24s",
+            type: "lesson",
+            completed: true,
+          },
+          {
+            title: "What is the role of a business analyst?",
+            duration: "4m 11s",
+            type: "lesson",
+            completed: false,
+          }
+        ],
+      },
+    ],
+    instructor: {
+      name: "Ms. Angela White",
+      image:
+        "https://img.freepik.com/free-photo/portrait-businesswoman-smiling_23-2148324321.jpg?w=740",
+      rating: 4.8,
+      reviews: 900,
+      courses: 8,
+      description:
+        "Ms. White is a certified business analyst with over 10 years of experience in various industries.",
+      job: "Senior Business Analyst",
+      students: 3500,
+      info: "CBAP, PMI-PBA | Business Analysis Trainer | Consultant",
+    },
+    questions: [
+      {
+        id: "1",
+        user: {
+          name: "Mark Taylor",
+          image:
+            "https://img.freepik.com/free-photo/young-man-smiling_23-2148324321.jpg?w=740",
+          info: "Aspiring Business Analyst",
+        },
+        content: "Do I need to know how to code?",
+        replies: [
+          {
+            id: "1-1",
+            user: {
+              name: "Ms. Angela White",
+              image:
+                "https://img.freepik.com/free-photo/portrait-businesswoman-smiling_23-2148324321.jpg?w=740",
+              info: "Senior Business Analyst | Business Analysis Trainer",
+            },
+            content:
+              "No, coding is not required for business analysts. However, understanding basic programming concepts can be helpful.",
+            timestamp: 10,
+            likes: 5,
+            liked: false,
+          },
+        ],
+        timestamp: 5,
+        likes: 2,
+        liked: false,
+        edited: false,
+      },
+    ],
+    materials: [
+      {
+        id: "1",
+        name: "Business Analysis Body of Knowledge (BABOK) Guide",
+        date: "March 15, 2025",
+        fileType: "pdf",
+        downloadUrl: "#",
+      },
+      {
+        id: "2",
+        name: "Stakeholder Analysis Template",
+        date: "March 16, 2025",
+        fileType: "docx",
+        downloadUrl: "#",
+      },
+      {
+        id: "3",
+        name: "Business Case Development",
+        date: "March 17, 2025",
+        fileType: "xlsx",
+        downloadUrl: "#",
+      },
+    ],
+    certificates_list: [
+      {
+        id: "1",
+        name: "Business Analysis Fundamentals",
+        program: "Business Analysis",
+        grade: "Excellent",
+        issue_date: "March 15, 2025",
+        serial: "BAF5421562",
+        fileType: "pdf",
+        downloadUrl: "#",
+      },
+    ],
+    sales: 200,
+  },
+];
